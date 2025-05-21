@@ -60,7 +60,6 @@ const Login: FC<LoginProps> = ({ setAccessToken }) => {
           Connect with Facebook to manage your posts
         </p>
         <button onClick={handleLogin} className="login__button">
-          <span className="login__button-icon">f</span>
           Login with Facebook
         </button>
       </div>
